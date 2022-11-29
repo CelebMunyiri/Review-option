@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: green;
+}
+.container {
+  position: absolute;
+  left: 550px;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  color: black;
+  background: rgb(245, 240, 240);
+  padding: 20px;
+  border-radius: 0.75rem;
+}
+.hidden {
+  display: none;
+}
+.pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.butons {
+  position: absolute;
+  left: 680px;
+  top: 550px;
+  width: 120px;
+  height: 60px;
+  font-size: 30px;
+  color: red;
+  background: green;
+  align-items: center;
+}
+button {
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+}
+button:hover {
+  font-size: 40px;
+  background: green;
+}
